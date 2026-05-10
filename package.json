@@ -1,0 +1,15 @@
+{
+  "name": "civicproof",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Trust infrastructure for promise ledgers, policy claims, and machine-checkable civic receipts.",
+  "packageManager": "pnpm@10.17.1",
+  "scripts": {
+    "build:web": "pnpm --dir apps/web build",
+    "dev:web": "pnpm --dir apps/web dev",
+    "typecheck:web": "pnpm --dir apps/web typecheck"
+  },
+  "workspaces": [
+    "apps/web"
+  ]
+}

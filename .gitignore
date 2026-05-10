@@ -1,0 +1,17 @@
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+.pnpm-store/
+
+# Rust
+target/
+
+# Lean
+proofs/lean/.lake/
+proofs/lean/lake-packages/
+
+# Env
+.env
+.env.local
+.DS_Store
